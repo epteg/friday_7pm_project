@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Personal site | Nata</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../contacts.html" class="nav-link">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../social.html" class="nav-link">Social</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="page-header bg-dark">
+    <h1 class="text-center display-2">Welcome page</h1>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contacts</li>
+        </ol>
+    </nav>
+</div>
+
+<main class="container">
+    <h1 class="text-center">Get in touch!</h1>
+    <div class="row">
+        <div class="col-lg-6 col-sm-6">
+            <form action="" class="contact-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Your name</label>
+                    <input id="name" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="mail" class="form-label">Your email</label>
+                    <input id="mail" type="email" class="form-control">
+                    <p class="text-muted">We'll never use your email for spam</p>
+                </div>
+                <div class="form-group">
+                    <label for="subj" class="form-label">Subject</label>
+                    <input id="subj" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="msg" class="form-label">Message</label>
+                    <textarea id="msg" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="btn btn-success" value="Send">
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-6 col-sm-6"></div>
+    </div>
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+</html>
